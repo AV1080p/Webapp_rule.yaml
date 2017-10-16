@@ -1,4 +1,5 @@
 #This file contains the application signatures - unique application path, version string, application name. The format is specified below:
+
 #AppName: 'JBoss jmx-console'
 #  - 'unique_app_path_1'
 #  - 'unique_app_path_2'
