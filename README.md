@@ -2,7 +2,7 @@
 
 ![error](https://github.com/re4lity/Webapp_rule.yaml/blob/master/error.jpg)
 
-3rd-party web applications on a network
+exploitable 3rd-party web applications on a network
 
 This file contains the application signatures - unique application path, version string, application name. 
 
@@ -20,5 +20,5 @@ The format is specified below:
 ```
 # References
 
-- [https://github.com/0xsauby/yasuo/blob/master/signatures.yaml](https://github.com/0xsauby/yasuo/blob/master/signatures.yaml)
+- [https://github.com/0xsauby/yasuo](https://github.com/0xsauby/yasuo)
 - [https://github.com/ywolf/F-MiddlewareScan](https://github.com/ywolf/F-MiddlewareScan)
