@@ -1,4 +1,4 @@
-# Webapp_-rule.yaml
+# Webapp_rule
 
 3rd-party web applications on a network
 
@@ -16,3 +16,6 @@ The format is specified below:
 #  - 'exploit_path'
 #  - 'creds' --> for smart brute-forcing
 ```
+# References
+
+[https://github.com/0xsauby/yasuo/blob/master/signatures.yaml](https://github.com/0xsauby/yasuo/blob/master/signatures.yaml)
