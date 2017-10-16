@@ -19,5 +19,4 @@ The format is specified below:
 # References
 
 - [https://github.com/0xsauby/yasuo/blob/master/signatures.yaml](https://github.com/0xsauby/yasuo/blob/master/signatures.yaml)
-
 - [https://github.com/ywolf/F-MiddlewareScan](https://github.com/ywolf/F-MiddlewareScan)
