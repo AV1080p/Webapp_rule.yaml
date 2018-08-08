@@ -821,9 +821,9 @@ weblogic:
 
 glassfish:
   path1: '401'
-  path2: 'port:4848'
+  path2: 'port:4848,8080'
   vstring: ''
-  exppath: 'exploit/multi/http/glassfish_deployer https://www.exploit-db.com/exploits/39241/'
+  exppath: 'exploit/multi/http/glassfish_deployer https://www.exploit-db.com/exploits/39241/ https://www.trustwave.com/Resources/Security-Advisories/Advisories/TWSL2015-016/?fid=6904 '
   defcreds: 'admin:admin'
 
 websphere:
@@ -832,3 +832,45 @@ websphere:
   vstring: ''
   exppath: 'exploit/windows/misc/ibm_websphere_java_deserialize'
   defcreds: 'system:manager,admin'
+  
+Dell Foglight for Virtualization:
+  path1: 'port:8080'
+  path2: ''
+  vstring: ''
+  exppath: 'http://www.polaris-lab.com/index.php/archives/503/'
+  defcreds: 'foglight:foglight'
+  
+WildFly:
+  path1: 'port:8080'
+  path2: 'port:9990'
+  vstring: ''
+  exppath: 'wildfly-detect https://github.com/hlldz/wildPwn'
+  defcreds: 'Administrator,Anonymous'
+  
+Docker:
+  path1: 'port:2375'
+  path2: ''
+  vstring: ''
+  exppath: 'http://drops.wooyun.org/papers/15892 http://www.polaris-lab.com/index.php/archives/253/'
+  defcreds: ''
+  
+ZooKeeper:
+  path1: 'port:2181'
+  path2: 'port:2888,3888'
+  vstring: ''
+  exppath: 'http://www.polaris-lab.com/index.php/archives/41/'
+  defcreds: 'admin:admin,Anonymous'
+  
+Elasticsearch:
+  path1: 'port:9300'
+  path2: ''
+  vstring: ''
+  exppath: 'http://www.91ri.org/15481.html'
+  defcreds: 'admin:admin,Anonymous'
+  
+Hadoop:
+  path1: 'port:50070'
+  path2: 'port:50075'
+  vstring: ''
+  exppath: 'http://www.polaris-lab.com/index.php/archives/187/'
+  defcreds: ''
